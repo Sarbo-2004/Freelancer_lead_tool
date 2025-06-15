@@ -41,3 +41,6 @@ def search_google_places(keyword: str,use_cache=True):
                 "category": place.get("type")
             })
     return res1
+keyword='healthcare canada'
+result = search_google_places(keyword)
+print(result)
